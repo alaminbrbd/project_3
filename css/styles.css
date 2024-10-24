@@ -1,0 +1,75 @@
+/* External CSS */
+/*Styel for the navigation bar */
+.navbar{
+    background-color: #333;/*Dark background*/
+    overflow: hidden;/*Ensures content fits inside*/
+    font-family:Arial, sans-serif;
+}
+/*Links inside the navigation bar */
+.navbar a{
+    float:left;/*Align links to the left*/
+    display: block; /*Make the links behave like block elements*/
+    color: white;/*White text*/
+    text-align: center; /* Center the text*/
+    padding: 14px 20px; /*Padding inside links*/
+    text-decoration: none;/*Remove underline*/
+    font-size:17px;/*Increase font size*/
+}
+/*Change the color of the links on hover*/
+.navbar a:hover{
+    background-color: #ddd;/*Light gray background on hover*/
+    color:black; /*Black text on hover*/
+}
+.header{
+    position:relative;/*Allows for absolute positioning of the logos */
+    text-align:center;/*Centers the text*/
+    background-color: #326e09;/*Background color for the header*/
+    color:white;/* Text color */
+    padding:10px;
+}
+.header h1{
+    margin:0;/*Removes default margin */
+    display: inline-block;/*Keeps the heading in line with the logos*/
+}
+.logo-left{
+    position:absolute;
+    left:10px;/*Aligns the left logo*/
+    top:50%;
+    transform:translateY(-50%);/*Vertically centers the logo*/
+    width: 100px;/*Adjust the size of the logo*/
+    height:auto;
+}
+.logo-right{
+    position: absolute;
+    right:10px;/*Aligns the right logo */
+    top:50%;
+    transform:translateY(-50%);/*Vertically centers the logo*/
+    width: 100px;/*Adjust the size of the logo*/
+    height: auto;
+}
+/*
+.header:
+
+position: relative; is necessary to use position: absolute; for the logo images inside the container.
+text-align: center; centers the text (<h1>) horizontally.
+Background color and padding are added for styling.
+Logos (.logo-left and .logo-right):
+
+The logos are positioned using position: absolute;, with .logo-left aligned to the left (left: 10px;) and .logo-right to the right (right: 10px;).
+top: 50%; transform: translateY(-50%); centers the logos vertically.
+The logos' size is controlled using width: 40px;.
+Heading (h1):
+
+display: inline-block; ensures the heading stays in the middle, between the two logos. */
+.box{
+    background-color: #eee;
+    padding:10px;
+    border:1px solid #ccc;
+    text-align:center;
+    color:#333;
+}
+img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}

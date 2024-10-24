@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Practice</title>
+        <!--External CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+        <!--Internal CSS-->
+        <style>
+            body{
+                font-fmaily: Arial, sans-serif;
+                background-color: #f0f0f0;
+            }
+            .container{
+                width:80%;
+                margin:0 auto;
+                background-color: white;
+                padding:20px;
+                box-shadow:0 0 10px rgba(0,0,0,0.1);
+            }
+            .header{
+                background-color: #4CAF50;
+                color:rgb(252, 252, 252);
+                padding:10px;
+                text-align:center;
+            }
+            .section{
+                margin:20px 0;
+            }
+            .class-example{
+                color:rgb(7, 7, 7);
+            }
+            #id-example{
+                color:rgb(53, 1, 1);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="#">HOME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">CONTACT US</a>
+        </nav>
+        <div class="container">
+        <div class="header">
+            <img src="images/css_logo_and_wordmark.svg.png" alt="CSS Logo" class="logo-left">
+            <h1>CSS Practice with HTML</h1>
+            <img src="images/html_logo_and_wordmark.svg.png" alt="HTML Logo" class="logo-right"
+            </div>
+            
+<div class="section">
+    <h2>Internal CSS Example</h2>
+    <p class="class-example">This paragraph uses a class selector with internal CSS to make te text blue. Lorem ipsum, dolor sit amet 
+        consectetur adipisicing elit. Eos unde accusamus ex odit, obcaecati facere earum impedit tempora consequatur quos repudiandae aperiam 
+        a itaque cupiditate delectus suscipit blanditiis maxime eum commodi vel dolorem similique ab! Ex unde autem cum, 
+        saepe ullam deserunt sunt! Commodi vero, beatae minus a quae officia.</p>
+    <p id="id-example">This paragraph uses an ID selector with internal CSS to make the text red. Lorem ipsum dolor 
+        sit amet consectetur adipisicing elit. Ab a, dolore, consequuntur accusamus eos quam praesentium, fugit dolores eum 
+        ratione quaerat saepe voluptate aspernatur fuga nulla molestiae maxime molestias. Assumenda, praesentium natus.
+         A, dolor molestias, mollitia ipsam aperiam expedita dolore rem commodi facilis incidunt blanditiis! Quisquam maiores fugiat ad recusandae.</p>
+</div>
+<div class="section">
+    <h2>External CSS Example</h2>
+    <div class="box">This div is styled using external CSS from the "styles.css" file. 
+
+    </div> 
+</div>
+<img src="images/man-riding-motorcycle.jpg" alt="man-riding-motorcycle">
+    </body>
+</html>
